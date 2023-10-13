@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 03 di Alice (CSS)</title>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Prata&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap'); 
+
+    body {
+        margin:0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .main-section {
+        padding: 20px;
+    }
+    .image-container {
+        background-image: url(https://asset.japan.travel/image/upload/v1679042833/kyoto/Kyoto_s_id16_5.jpg);
+        height: 500px;
+        background-position: 25% 25%;
+        margin: 0
+    }
+    h1 {
+        font-family: 'Prata', serif;
+        font-size: 64px;
+        font-weight: 400;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-family: 'Prata', serif;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom:0;
+    }
+    h6 {
+        padding: 22px;
+        color: white;
+        max-width: 100%;
+        margin: 56px 0 0 0;
+        background: linear-gradient(120deg, #987e3d, #edc45f);
+        border-radius: 6px;
+    }
+    .main-section ul {
+        list-style: none;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        border-bottom: 1px #dfdfdf;
+    }
+    .main-section li a {
+        text-decoration: none;
+        color: #987e3d;
+    }
+    .footer {
+            background-color: black;
+            padding: 16px;
+            text-align: center;
+        }
+    .footer a {
+        color: white;
+        text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+   <div class="main-section">
+    <div class="image-container">
+    </div>
+    <h1>Kinkaku-ji</h1>
+    <h3>Il Tempio del padiglione d'oro che si trova a Kyoto, Giappone.
+    </h3>
+    <hr/>
+    <p>
+     Source:
+     <a href="https://www.japan.travel/it/spot/1152/" style="font-weight: 600; font-style: oblique;">Japan Travel</a>
+    </p>
+   <hr />
+   <h6>Luoghi Correlati</h6>
+    <ul>
+        <li><a href=".palazzo-imperiale-kyoto.html">Palazzo Imperiale di Kyoto</a></li>
+        <li><a href=".santuario-fushimi-inari-taisha.html">Santuario Fushimi Inari</a></li>
+        <li><a href=".castello-di-nijo.html">Castello di Nijo</a></li>
+        <li><a href=".acquario-kyoto.html">Acquario di Kyoto</a></li>
+        <li><a href=".mercato-di-nishiki.html">Mercato di Nishiki</a></li>
+    </ul>
+    </div>
+     <div class="footer">
+         <a href="./index3.html">Home</a>
+    </div>
+</body>
+</html>
